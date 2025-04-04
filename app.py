@@ -70,8 +70,7 @@ else:
     st.write('The customer is not likely to churn.')
 
 st.set_page_config(
-    page_title="My New Awesome Title",  # Browser tab title
-    page_icon=":rocket:",              # Favicon emoji (optional)
+    page_title="Churn Modelling",  # Browser tab title
     layout="wide"                      # Optional layout setting
 )
 
