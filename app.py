@@ -69,10 +69,8 @@ if prediction_proba > 0.5:
 else:
     st.write('The customer is not likely to churn.')
 
-st.set_page_config(
-    page_title="Churn Modelling",  # Browser tab title
-    layout="wide"                      # Optional layout setting
-)
+st.set_page_config(page_title="Test")
+st.write("Works!")
 
 
 st.markdown(
