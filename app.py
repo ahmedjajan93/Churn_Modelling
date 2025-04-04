@@ -20,6 +20,24 @@ with open('scaler.pkl', 'rb') as file:
 
 
 ## streamlit app
+st.set_page_config(page_title="Test")
+st.write("Works!")
+
+
+st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://github.com/ahmedjajan93/Churn_Modelling.git/main/background.png");
+             background-size:cover;
+             background-position:center;
+             background-repeat: no-repeat;
+             background-attachment: fiexed;
+         }}
+         </style>
+         """
+     )
+
 st.title('Customer Churn PRediction')
 
 # User input
@@ -69,22 +87,5 @@ if prediction_proba > 0.5:
 else:
     st.write('The customer is not likely to churn.')
 
-st.set_page_config(page_title="Test")
-st.write("Works!")
-
-
-st.markdown(
-         f"""
-         <style>
-         .stApp {{
-             background-image: url("https://github.com/ahmedjajan93/Churn_Modelling.git/main/background.png");
-             background-size:cover;
-             background-position:center;
-             background-repeat: no-repeat;
-             background-attachment: fiexed;
-         }}
-         </style>
-         """
-     )
 
 
