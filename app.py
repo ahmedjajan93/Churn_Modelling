@@ -69,7 +69,11 @@ if prediction_proba > 0.5:
 else:
     st.write('The customer is not likely to churn.')
 
-st.set_page_config(layout='wide')
+st.set_page_config(
+    page_title="My New Awesome Title",  # Browser tab title
+    page_icon=":rocket:",              # Favicon emoji (optional)
+    layout="wide"                      # Optional layout setting
+)
 
 
 st.markdown(
