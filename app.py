@@ -86,8 +86,7 @@ st.markdown(
              background-attachment: fiexed;
          }}
          </style>
-         """,
-         unsafe_allow_html=True
+         """
      )
 
 
